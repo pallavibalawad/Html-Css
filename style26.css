@@ -1,0 +1,98 @@
+body {
+background-color: black;
+color: white;
+
+}
+.navigation 
+{
+    background-color:black;
+    color: white;
+    margin-top: 0px;
+    list-style-type: none;
+    padding-left: 0px;
+    display: flex;
+    justify-content:space-evenly;
+}
+.half {
+    width:35%;
+}
+.nav
+{
+    list-style-type: none;
+    justify-content:space-between;
+    display: flex;
+}
+.row
+{
+    display: flex;  
+}
+.column {
+    flex: 33.33%;
+    
+  }
+  .head{
+      width: 50%;
+  }
+  #divaline{
+      text-align: center;
+  }
+
+  #dividone{
+      width: 450px;
+  }
+  #dividtwo
+  {
+      width:450px;
+  }
+  #aline1{
+     justify-content: space-around;
+  }
+  .flex-sub {
+    display: flex;
+    background-color:gray;
+  }
+  
+  .flex-sub > div {
+    background-color:gray;
+    margin: 10px;
+    padding: 50px;
+    color: white;
+  }
+  .lastline {
+    display: flex;
+    background-color:black;
+    color: beige;
+  }
+  
+  .lastine > div {
+    background-color:black;
+    margin: 10px;
+    padding: 50px;
+    color: white;
+    
+  }
+ 
+  footer
+  {
+     display: flex;
+     background-color: gray;
+     justify-content: flex-end;
+    padding: 15px;
+   
+     
+  }
+  a:link {
+    color:whitesmoke;
+    text-decoration: none;
+  }
+  
+ 
+  a:visited {
+    color: whitesmoke;
+  }
+  
+ 
+  a:hover {
+    color:whitesmoke;
+  }
+    
